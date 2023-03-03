@@ -2,41 +2,83 @@
 
 * {
     margin: 0px;
-    padding: opx;
+    padding: 0px;
 }
 
 body {
-    background-color: black;
-}
+    background-image: url(/assets/images/backgroundImg.svg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-color: rgba(0,0,0,1);
+  
 
-#menuHeader {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
+}
+#navBar1{
+    
+    margin-right: 0px;
     margin-top: 30px;
 }
 
-#menuHeader ul li a {
-    width: 169px;
-    list-style-type: none;
-    text-decoration: none;
-    
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 29px;
 
-    color: white;
-}
-
-#menuHeaderEntrarAssinar {
+.navBar {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
-    list-style-type: none;
-
+    
+   
+   
+  }
+    
+  
+  .navBar a {
+   
+    font-size: 16px;
     text-decoration: none;
-}
+    margin-left: 10px;
+    font-family: 'inter';
+    font-weight: bold;
+
+
+  }
+
+  #vector{
+    margin-right: 50px;
+    margin-left: 30px;
+   
+  }
+
+  #hboLogo{
+   
+    margin-top: 30px;
+    margin-left: 45px;
+  }
+
+  #navBar3{
+    margin-top: 30px;
+    margin-right: 50px;
+    font-family: 'inter';
+    font-weight: bold;
+
+
+  
+  }
+  #navBar3 a{
+    text-decoration: none;
+    color:white;
+    padding-right: 10px;
+  }
+
+  
+
+
+
+
+
+
+
+
+
+
 
 #entrarHeadButton {
     display: flex;
@@ -52,6 +94,10 @@ body {
     text-decoration: none;
 
     color: white;
+}
+#entrarHeadButton a{
+    color: white;
+    text-decoration: none;
 }
 
 h2 {
@@ -93,17 +139,28 @@ h2 {
     height: 43px;
     left: 462px;
     top: 419px;
+    
+
 
     background: rgba(127, 127, 127, 0.75);
     border-radius: 25px;
 
     border: none;
+
+    color: white;
+
+    font-family: 'inter';
+    font-weight: 400;
+    font-size: 20px;
+    padding-left: 10px;
+
 }
+
 
 .inputStyles input::placeholder {
     width: 379px;
     height: 74px;
-
+padding-left: 15px;
     font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
@@ -111,6 +168,7 @@ h2 {
 
     color: #FFFFFF;
 }
+
 
 #buttonEntrar {
     display: flex;
@@ -138,7 +196,8 @@ h2 {
 }
 
 #buttonEntrar button:hover {
-    background-color: #4228aa;
+    background: linear-gradient(-90deg, #FBC2EB 0%,#A18CD1 0%);
+    
     cursor: pointer;
     transition: 0.3s;
 }
@@ -170,7 +229,8 @@ h2 {
 }
 
 #buttonEntrarProvedor button:hover {
-    background-color: #4228aa;
+    background: linear-gradient(-90deg, #FBC2EB 0%,#A18CD1 0%);
+    
     cursor: pointer;
     transition: 0.3s;
-}
+} 
